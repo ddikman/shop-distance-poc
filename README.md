@@ -4,10 +4,10 @@ This is a tiny vue application that takes our currently active shops and compare
 
 ![Example of running app](./example.png)
 
-## running
+## running
 
 It's a vite project so run it with `npm run dev`
 
-## deployment
+## deployment
 
 The `dist` folder is committed so any time changes are made, run `npm run build` and commit that and it'll be accessible on github pages.
