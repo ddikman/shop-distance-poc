@@ -1,7 +1,11 @@
-# Vue 3 + Vite
+# Microfulfilment PoC
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a tiny vue application that takes our currently active shops and plots their delivery radius on a map.
 
-## Recommended IDE Setup
+## running
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+It's a vite project so run it with `npm run dev`
+
+## deployment
+
+The `dist` folder is committed so any time changes are made, run `npm run build` and commit that and it'll be accessible on github pages.
