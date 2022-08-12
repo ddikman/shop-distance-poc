@@ -1,6 +1,6 @@
 # Microfulfilment PoC
 
-This is a tiny vue application that takes our currently active shops and plots their delivery radius on a map.
+This is a tiny vue application that takes our currently active shops and compares their distance with a given address.
 
 ## running
 
