@@ -25,6 +25,10 @@ const location = ref({
 
 const textLocation = ref(locationToString(location.value))
 
+watch(textLocation, () => {
+  location.value = locationFromString(textLocation.value)
+})
+
 const radius = ref(3000)
 
 const shopsInRange = computed(() => {
@@ -53,7 +57,7 @@ const useCurrent = () => {
       <p>You can paste a location from google maps here:</p>
       <img src="/paste-location.png"/>
       <button @click="useCurrent">Use my current location</button>
-      <input type="text" v-model="textLocation"/>
+      <input class="location-input" type="text" v-model="textLocation"/>
     </div>
     <p>
       <input type="range" min="100" max="5000" v-model="radius" step="100" /><br/>
@@ -86,5 +90,9 @@ const useCurrent = () => {
   padding: 4px 16px;
   border-radius: 12px;
   border: 1px solid #eee;
+}
+
+.location-input {
+  width: 350px;
 }
 </style>

@@ -2,6 +2,8 @@
 
 This is a tiny vue application that takes our currently active shops and compares their distance with a given address.
 
+![Example of running app](./example.png)
+
 ## running
 
 It's a vite project so run it with `npm run dev`
