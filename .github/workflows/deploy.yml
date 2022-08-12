@@ -20,7 +20,7 @@ jobs:
         node-version: 18.x
         cache: 'npm'
     - run: npm install
-    - run: npm run build
+    - run: npm run build -- --base=/shop-distance-poc
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
