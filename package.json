@@ -1,0 +1,21 @@
+{
+  "name": "microfulfilment-poc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.72",
+    "@vueuse/core": "^9.1.0",
+    "geolib": "^3.3.3",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.2",
+    "vite": "^3.0.6"
+  }
+}
