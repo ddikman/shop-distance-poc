@@ -2,6 +2,8 @@
 
 This is a tiny vue application that takes our currently active shops and compares their distance with a given address.
 
+See the live version at [https://ddikman.github.io/shop-distance-poc/](https://ddikman.github.io/shop-distance-poc/)
+
 ![Example of running app](./example.png)
 
 ## running
